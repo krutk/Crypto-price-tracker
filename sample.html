@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="/manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Varela+Round"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="browser-polyfill.js"></script>
+    <title>Crypto Tracker</title>
+    <link href="/static/css/main.7023c255.css" rel="stylesheet" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this extension.</noscript>
+    <script>
+      !(function () {
+        var n;
+        if (!(n = window.driftt = window.drift = window.driftt || []).init)
+          n.invoked
+            ? window.console &&
+              console.error &&
+              console.error("Drift snippet included twice.")
+            : ((n.invoked = !0),
+              (n.methods = [
+                "identify",
+                "config",
+                "track",
+                "reset",
+                "debug",
+                "show",
+                "ping",
+                "page",
+                "hide",
+                "off",
+                "on",
+              ]),
+              (n.factory = function (e) {
+                return function () {
+                  var t;
+                  return (
+                    (t = Array.prototype.slice.call(arguments)).unshift(e),
+                    n.push(t),
+                    n
+                  );
+                };
+              }),
+              n.methods.forEach(function (t) {
+                n[t] = n.factory(t);
+              }),
+              (n.load = function (t) {
+                var e, n, o;
+                (o = 3e5 * Math.ceil(new Date() / 3e5)),
+                  ((n = document.createElement("script")).type =
+                    "text/javascript"),
+                  (n.async = !0),
+                  (n.crossorigin = "anonymous"),
+                  (n.src =
+                    "https://js.driftt.com/include/" + o + "/" + t + ".js"),
+                  (e = document.getElementsByTagName(
+                    "script"
+                  )[0]).parentNode.insertBefore(n, e);
+              }));
+      })(),
+        (drift.SNIPPET_VERSION = "0.3.1"),
+        drift.load("akdhdwxzfc94");
+    </script>
+    <div id="root"></div>
+    <script type="text/javascript" src="/static/js/main.80e8f8fe.js"></script>
+  </body>
+</html>
